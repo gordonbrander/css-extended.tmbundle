@@ -6,7 +6,7 @@
 	<string>-moz-border-radius-topleft: $1;
 -webkit-border-top-left-radius: $1;
 -khtml-border-top-left-radius: $1;
-border-radius-top-left: ${1:5px};</string>
+border-top-left-radius: ${1:5px};</string>
 	<key>name</key>
 	<string>border-radius-top-left</string>
 	<key>scope</key>
