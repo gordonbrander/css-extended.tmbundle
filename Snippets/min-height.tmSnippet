@@ -13,8 +13,8 @@
  * @see http://www.dustindiaz.com/min-height-fast-hack/
  */
 }height: auto !important;
-height: $0;
-min-height: ${0:50px};</string>
+height: $2;
+min-height: ${2:50px};</string>
 	<key>name</key>
 	<string>min-height</string>
 	<key>scope</key>
