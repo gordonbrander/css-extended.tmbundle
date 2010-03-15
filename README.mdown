@@ -4,7 +4,7 @@ CSS Extended Bundle for TextMate
 About
 -----
 
-This is a bundle for the [TextMate](http://macromates.com/) text editor. It gives you additional quick shortcuts for CSS and new CSS3 properties. Where possible, it will stack -prefixed experimental properties with the standard property, so the property will fall back on the experimental version if the standard version isn't supported. Example:
+This is a bundle for the [TextMate](http://macromates.com/) text editor. It gives you additional quick shortcuts for CSS and new CSS3 properties. Where possible, it will maximize cross-browser compatibility by combining `-prefixed` experimental properties with the standard property, so the browser will fall back on the experimental version if the standard version isn't supported. Example:
 
 	-moz-border-radius-topright:3px;
 	-webkit-border-top-right-radius:3px;

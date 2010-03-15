@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-moz-border-radius: $1;
--webkit-border-radius: $1;
--khtml-border-radius: $1;
-border-radius: ${1:5px};</string>
+	<string>-moz-border-radius: $1; /* FF1+ */
+-webkit-border-radius: $1; /* Saf3+, Chrome */
+-khtml-border-radius: $1; /* Konqueror */
+border-radius: ${1:5px}; /* Standard. IE9 */</string>
 	<key>name</key>
 	<string>border-radius</string>
 	<key>scope</key>

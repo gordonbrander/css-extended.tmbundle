@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-moz-border-radius-topright: $1;
--webkit-border-top-right-radius: $1;
--khtml-border-top-right-radius: $1;
-border-top-right-radius: ${1:5px};</string>
+	<string>-moz-border-radius-topright: $1; /* FF1+ */
+-webkit-border-top-right-radius: $1; /* Saf3+, Chrome */
+-khtml-border-top-right-radius: $1; /* Konqueror */
+border-top-right-radius: ${1:5px}; /* Standard. IE9 */</string>
 	<key>name</key>
 	<string>border-radius-top-right</string>
 	<key>scope</key>
