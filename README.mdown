@@ -11,6 +11,19 @@ This is a bundle for the [TextMate](http://macromates.com/) text editor. It give
 	-khtml-border-top-right-radius:3px;
 	border-radius-top-right:3px;
 
+Features
+--------
+
+- `border-radius` and `border-radius-`*side*
+- `box-shadow`
+- `display: inline-block`
+- `text-overflow: ellipsis`
+- `transition`
+- `box-sizing`
+- `min-height`
+- `transform`
+- More to come...
+
 Installation
 ------------
 
