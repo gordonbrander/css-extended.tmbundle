@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-moz-transition: $1;
--webkit-transition: $1;
+	<string>-webkit-transition: $1;
 -o-transition: $1;
 transition: ${1:color .2s linear};</string>
 	<key>name</key>
