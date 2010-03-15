@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:/**
+ * @workaround min-height Fast Hack
+ *
+ * IE6 doesn't support min-height, but treats elements with
+ * height and overflow:visible as min-height.
+ *
+ * @affected IE5, IE6
+ * @see http://www.dustindiaz.com/min-height-fast-hack/
+ */
+}height: auto !important;
+height: $0;
+min-height: ${0:50px};</string>
+	<key>name</key>
+	<string>min-height</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>min</string>
+	<key>uuid</key>
+	<string>5C405E5B-007D-489F-BBA2-F13794E7B373</string>
+</dict>
+</plist>
