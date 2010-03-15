@@ -3,16 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-moz-box-sizing: $1; /* FF1+ */
--webkit-box-sizing: $1; /* Saf3+ */
-box-sizing: ${1:border-box}; /* Standard. Opera7+, IE8+ */</string>
+	<string>-moz-transform: $1; /* FF3.5+ */
+-webkit-transform: $1; /* Saf3.1+, Chrome */
+-o-transform: $1; /* Opera 10.5 */
+transform: ${1:rotate(-9deg)};</string>
 	<key>name</key>
-	<string>box-sizing</string>
+	<string>transform</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>box</string>
+	<string>transform</string>
 	<key>uuid</key>
-	<string>40E10F97-4526-4C9C-8B16-A8158A0DE4DB</string>
+	<string>0A2167B2-BFC9-4D46-B0A8-4BB6D54D19D8</string>
 </dict>
 </plist>
