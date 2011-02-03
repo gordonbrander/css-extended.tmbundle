@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=$1, OffY=$2, Color='$4'); /* IE6, IE7 */
--ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=$1, OffY=$2, Color='$4')"; /* IE8 */
--moz-box-shadow: $1 $2 $3 $4; /* FF3.5+ */
+	<string>-moz-box-shadow: $1 $2 $3 $4; /* FF3.5+ */
 -webkit-box-shadow: $1 $2 $3 $4; /* Saf3+, Chrome */
 box-shadow: ${1:x} ${2:y} ${3:spread} ${4:#000000}; /* Standard. Opera 10.5, IE9 */</string>
 	<key>name</key>

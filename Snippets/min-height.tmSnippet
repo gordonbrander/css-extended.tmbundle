@@ -12,8 +12,9 @@
  * @affected IE5, IE6
  * @see http://www.dustindiaz.com/min-height-fast-hack/
  */
-}height: auto !important;
-height: $2;
+height: auto !important;
+overflow: visible !important;
+height: $2;}
 min-height: ${2:50px};</string>
 	<key>name</key>
 	<string>min-height</string>

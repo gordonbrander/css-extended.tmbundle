@@ -3,8 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>display: -moz-inline-box;
-display: inline-block;</string>
+	<string>display: -moz-inline-box; /* FF2 */
+display: inline-block; /* Standard. IE8+, Saf, FF3+ */
+${1:/**
+ * @bugfix inline-block fix
+ * @see http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/
+ * @valid no
+ */
+zoom: 1;
+*display: inline;}$0</string>
 	<key>name</key>
 	<string>display:inline-block</string>
 	<key>scope</key>

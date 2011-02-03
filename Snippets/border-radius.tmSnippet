@@ -6,7 +6,12 @@
 	<string>-moz-border-radius: $1; /* FF1+ */
 -webkit-border-radius: $1; /* Saf3+, Chrome */
 -khtml-border-radius: $1; /* Konqueror */
-border-radius: ${1:5px}; /* Standard. IE9 */</string>
+border-radius: ${1:5px}; /* Standard. IE9 */
+/**
+ * @bugfix border-radius background bleed
+ * @see http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed
+ */
+-webkit-background-clip: padding-box;</string>
 	<key>name</key>
 	<string>border-radius</string>
 	<key>scope</key>

@@ -3,8 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-o-text-overflow: ellipsis;
-text-overflow: ellipsis;</string>
+	<string>-o-text-overflow: ellipsis; /* Opera */
+text-overflow: ellipsis; /* IE6+, Safari, Konqueror, Standard? */
+${1:overflow: hidden;
+white-space: nowrap;
+}$0</string>
 	<key>name</key>
 	<string>text-overflow:ellipsis</string>
 	<key>scope</key>
