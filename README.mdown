@@ -22,6 +22,7 @@ Features
 - `box-sizing`
 - `min-height`
 - `transform`
+- `background:` *linear gradient*
 - More to come...
 
 Installation
