@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>-moz-column-gap: $1;
 -webkit-column-gap: $1; /* Saf, Chrome, iOS */
-column-gap: ${1:10px};</string>
+column-gap: ${1:10px}; /* Standard (someday) */</string>
 	<key>name</key>
 	<string>column-gap</string>
 	<key>scope</key>
