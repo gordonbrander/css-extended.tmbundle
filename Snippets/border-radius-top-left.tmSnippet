@@ -4,9 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>-moz-border-radius-topleft: $1; /* FF1+ */
--webkit-border-top-left-radius: $1; /* Saf3+, Chrome */
--khtml-border-top-left-radius: $1; /* Konqueror */
-border-top-left-radius: ${1:5px}; /* Standard. IE9 */</string>
+-webkit-border-top-left-radius: $1; /* Saf3+, Chrome, iOS */
+border-top-left-radius: ${1:5px}; /* Standard, IE9 */</string>
 	<key>name</key>
 	<string>border-radius-top-left</string>
 	<key>scope</key>

@@ -4,9 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>-moz-border-radius: $1; /* FF1+ */
--webkit-border-radius: $1; /* Saf3+, Chrome */
--khtml-border-radius: $1; /* Konqueror */
-border-radius: ${1:5px}; /* Standard. IE9 */
+-webkit-border-radius: $1; /* Saf3+, Chrome, iOS */
+border-radius: ${1:5px}; /* Standard, IE9 */
 /**
  * @bugfix border-radius background bleed
  * @see http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed
