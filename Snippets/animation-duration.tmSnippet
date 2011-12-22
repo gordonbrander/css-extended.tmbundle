@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-ms-animation-duration: $1; /* IE9+ */
+-moz-animation-duration: $1;
+-webkit-animation-duration: $1;
+animation-duration: ${1:1s};</string>
+	<key>name</key>
+	<string>animation-duration</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>animation</string>
+	<key>uuid</key>
+	<string>C139E790-5F5A-4FC4-8C9F-EEEE22D6C2FC</string>
+</dict>
+</plist>

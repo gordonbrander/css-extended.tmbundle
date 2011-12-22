@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-ms-animation-timing-function: $1;
+-moz-animation-timing-function: $1;
+-webkit-animation-timing-function: $1;
+animation-timing-function: ${1:linear};</string>
+	<key>name</key>
+	<string>animation-timing-function</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>animation</string>
+	<key>uuid</key>
+	<string>39F32728-190F-49D1-A9AB-AF162A6DF06E</string>
+</dict>
+</plist>
