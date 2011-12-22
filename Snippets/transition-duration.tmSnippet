@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>-webkit-transition-duration: $1;
 -o-transition-duration: $1;
-transition-duration: .2s};</string>
+transition-duration: ${1:};</string>
 	<key>name</key>
 	<string>transition-duration</string>
 	<key>scope</key>
