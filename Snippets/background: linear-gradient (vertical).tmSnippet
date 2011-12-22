@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>background-color: $1;
+/* Vertical gradient background from $1 (bottom [$3]) to $2 (top [$4]) */
+background: linear-gradient($3 $4 90deg, $1, $2);
+background: -moz-linear-gradient(top, ${1:#ffffff} ${3:0%}, ${2:#000000} ${4:100%}); /* Fx3.6+ */
+background: -o-linear-gradient(top, $1 $3,$2 $4); /* Opera */
+background: -webkit-gradient(linear, left top, left bottom, color-stop($3,$1), color-stop($4,$2)); /* Webkit */$0</string>
+	<key>name</key>
+	<string>background: linear-gradient (vertical)</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>background</string>
+	<key>uuid</key>
+	<string>F79B8B62-5F05-473F-9E6E-317180A35300</string>
+</dict>
+</plist>
