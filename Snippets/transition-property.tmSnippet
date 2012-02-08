@@ -3,9 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transition-property: $1;
--o-transition-property: $1;
-transition-property: ${1:color, background};</string>
+	<string>/* CSS transition property
+developer.mozilla.org/en/CSS/transition-property */
+-moz-transition-property: $1; /* FF 4.0+ */
+-ms-transition-property: $1; /* Metro, IE10 */
+-webkit-transition-property: $1; /* Chrome 1.0+, Saf 3.0+ */
+-o-transition-property: $1; /* Opera Presto 2.3+ */
+transition: ${1:color, background}; /* Standard */</string>
 	<key>name</key>
 	<string>transition-property</string>
 	<key>scope</key>
