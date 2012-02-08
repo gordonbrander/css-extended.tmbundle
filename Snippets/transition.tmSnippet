@@ -3,9 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transition: $1;
--o-transition: $1;
-transition: ${1:color .2s linear};</string>
+	<string>/* CSS transitions
+developer.mozilla.org/en/CSS/transition */
+-moz-transition: $1; /* FF 4.0+ */
+-ms-transition: $1; /* Metro, IE10 */
+-webkit-transition: $1; /* Chrome 1.0+, Saf 3.0+ */
+-o-transition: $1; /* Opera Presto 2.3+ */
+transition: ${1:color .2s linear}; /* Standard */</string>
 	<key>name</key>
 	<string>transition</string>
 	<key>scope</key>
